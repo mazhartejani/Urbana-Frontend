@@ -1,0 +1,25 @@
+.add-chart-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 1.5rem;
+    padding: 1.75rem
+}
+
+.graph-button {
+    flex-direction: column;
+    width: 100%
+}
+
+.graph-button-icon {
+    font-size: 6.25rem !important;
+}
+
+.close-icon {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer
+}

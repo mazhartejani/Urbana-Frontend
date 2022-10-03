@@ -1,0 +1,24 @@
+.chart-grid-container {
+    display: grid; 
+    grid-template-columns: auto 9.375rem;
+    padding: 0.625rem
+}
+
+.chart-slot {
+    border: 1px solid black
+}
+
+.remove-icon {
+    position: absolute;
+    right: 0.125rem;
+    top: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .chart-grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
